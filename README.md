@@ -11,17 +11,17 @@ A simple powershell script allowing to select a playback / recording device from
 
 	A. Search and run Powershell using your Windows search bar
 	
-  B. Execute the following command
+	B. Execute the following command
    ```sh
    Set-ExecutionPolicy -ExecutionPolicy Unrestricted
    ```
 3. Set powershell as default application for ps1 files
 
-  A. Right click the script file -> Properties
+	A. Right click the script file -> Properties
 	
-  B. Opens With: -> Change
+	B. Opens With: -> Change
 	
-  C. Select powershell.exe in the following directory path:
+	C. Select powershell.exe in the following directory path:
    ```sh
    C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
    ```
